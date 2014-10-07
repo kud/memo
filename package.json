@@ -1,0 +1,31 @@
+{
+  "name": "putainde-memo",
+  "version": "0.0.1",
+  "bin": {
+    "memo": "./bin/memo"
+  },
+  "scripts": {
+    "postinstall": "echo '{}' > ~/.memo"
+  },
+  "description": "A command line tool to store notes and other stuff",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/putaindecode/memo.git"
+  },
+  "keywords": [
+    "cli",
+    "snippet",
+    "tool"
+  ],
+  "author": "Putain de Code",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/putaindecode/memo/issues"
+  },
+  "homepage": "https://github.com/putaindecode/memo",
+  "dependencies": {
+    "bloody-promise": "^1.0.3",
+    "prettyjson": "^1.0.0"
+  }
+}
