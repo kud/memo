@@ -19,12 +19,12 @@ $ memo
 ### Add
 
 ```
-$ memo website http://putaindecode.fr
+$ memo something content
 ```
 
 ### Remove
 
 ```
-$ memo (remove|delete) website
+$ memo -d something
 ```
 
